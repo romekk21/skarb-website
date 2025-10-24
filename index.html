@@ -239,6 +239,10 @@
             height: 475px;
         }
 
+        .step:nth-child(3) .step-graphic {
+            height: 475px;
+        }
+
         .step-graphic img {
             width: 100%;
             height: 100%;
@@ -250,6 +254,10 @@
         }
 
         .step:nth-child(2) .step-graphic img {
+            object-fit: contain;
+        }
+
+        .step:nth-child(3) .step-graphic img {
             object-fit: contain;
         }
 
@@ -497,7 +505,9 @@
             <div class="step">
                 <div class="step-number">3</div>
                 <h3>Discover rewards</h3>
-                <div class="step-graphic">🏆 Complete & Win</div>
+                <div class="step-graphic">
+                    <img src="assets/skarb_reward_mockup.png" alt="Start the hunt">
+                </div>
                 <p>Unlock limited digital souvenirs, exclusive collectibles, and redeemable perks.</p>
             </div>
         </div>
